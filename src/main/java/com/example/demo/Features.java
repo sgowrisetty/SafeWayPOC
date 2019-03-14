@@ -18,7 +18,8 @@ public class Features {
     public Map<String, Boolean> getToggles() {
         return toggles;
     }
-    // this method will return  the property value of feature.toggles.update
+
+   // this method will return  the property value of feature.toggles.update
     public boolean updateFeatureEnabled() {
         return toggles.get("update");
     }
